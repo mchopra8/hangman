@@ -43,4 +43,4 @@ jobs:
         url: "https://devtools.in"
       steps:
         - name: Deployment Task
-          run: echo Deployed
+          run: echo Deployed ${{ secrets.TEST_SECRET }}
